@@ -37,7 +37,7 @@ function Image() {
                   id="slider-4"
                 />
                 <label for="slider-4"></label>
-                {/* <input
+                <input
                   className="checkbox foth"
                   type="radio"
                   name="slider"
@@ -50,7 +50,7 @@ function Image() {
                   name="slider"
                   id="slider-6"
                 />
-                <label for="slider-6"></label> */}
+                <label for="slider-6"></label>
 
                 <ul>
                   <li>

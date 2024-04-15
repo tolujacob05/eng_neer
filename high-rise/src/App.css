@@ -245,14 +245,14 @@ a:hover {
   box-sizing: border-box;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  background-image: url("./img/D1.jpg");
+  background-image: url("./img/D5.jpg");
   animation: border-transform 6s linear infinite alternate forwards;
   -webkit-animation-play-state: paused;
   -moz-animation-play-state: paused;
   animation-play-state: paused;
 }
 .checkbox.scnd + label {
-  background-image: url("./img/D2.jpg");
+  background-image: url("./img/D6.jpg");
 }
 .checkbox.thrd + label {
   background-image: url("./img/D3.jpg");
@@ -260,12 +260,12 @@ a:hover {
 .checkbox.foth + label {
   background-image: url("./img/D4.jpg");
 }
-/* .checkbox.foth + label {
-  background-image: url("./img/D5.jpg");
+.checkbox.foth + label {
+  background-image: url("./img/D1.jpg");
 }
 .checkbox.foth + label {
-  background-image: url("./img/D6.jpg");
-} */
+  background-image: url("./img/D2.jpg");
+}
 
 .checkbox:checked + label {
   box-shadow: 0 8px 25px 0 rgba(16, 39, 112, 0.3);
@@ -316,7 +316,7 @@ ul {
 }
 
 ul li {
-  background-image: url("./img/D1.jpg");
+  background-image: url("./img/D5.jpg");
   position: absolute;
   top: 0;
   left: -225px;
@@ -353,13 +353,19 @@ ul li span {
   mix-blend-mode: difference;
 }
 ul li:nth-child(2) {
-  background-image: url("./img/D2.jpg");
+  background-image: url("./img/D6.jpg");
 }
 ul li:nth-child(3) {
   background-image: url("./img/D3.jpg");
 }
 ul li:nth-child(4) {
   background-image: url("./img/D4.jpg");
+}
+ul li:nth-child(5) {
+  background-image: url("./img/D1.jpg");
+}
+ul li:nth-child(6) {
+  background-image: url("./img/D2.jpg");
 }
 
 .checkbox.frst:checked ~ ul li:nth-child(1) {
@@ -458,7 +464,7 @@ ul li:nth-child(4) {
 
   ul li {
     position: absolute;
-    left: -125px;
+    left: -55px;
     min-width: 500px;
     height: 300px;
     font-size: 13px;
@@ -496,13 +502,6 @@ ul li:nth-child(4) {
 
     font-size: 1rem;
   }
-
-  .container {
-    min-height: 100vh;
-
-    max-width: 350px; /* Adjust max-width as needed */
-    margin: 0 auto;
-  }
 }
 
 @media (max-width: 767px) {
@@ -513,13 +512,6 @@ ul li:nth-child(4) {
   /* .full-height {
     min-height: 70vh;
   } */
-
-  ul li {
-    background-image: url("./img/D1.jpg");
-    position: absolute;
-    /* left: -20px; */
-    min-width: 500px;
-  }
 
   .point-1 {
     display: flex;
@@ -536,7 +528,6 @@ ul li:nth-child(4) {
   .point > h3 {
     font-size: 26px;
     font-weight: 700;
-
     margin: 50px 0 10px;
   }
 
@@ -569,8 +560,15 @@ ul li:nth-child(4) {
 
   .checkbox:checked + label,
   .checkbox:not(:checked) + label {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin-top: 6rem;
+  }
+
+  .container {
+    min-height: 100vh;
+
+    max-width: 350px; /* Adjust max-width as needed */
+    margin: 0 auto;
   }
 }
