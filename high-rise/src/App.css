@@ -496,6 +496,13 @@ ul li:nth-child(4) {
 
     font-size: 1rem;
   }
+
+  .container {
+    min-height: 100vh;
+
+    max-width: 350px; /* Adjust max-width as needed */
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 767px) {
