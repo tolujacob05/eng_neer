@@ -15,6 +15,10 @@ code {
   font-family: sofia-pro, sans-serif;
 }
 
+.article-container > h1:hover {
+  text-decoration: underline;
+}
+
 .article-container > p {
   margin: 0 0 20px 0;
   font-size: 15px;

@@ -21,6 +21,7 @@ function Image() {
                   type="radio"
                   name="slider"
                   id="slider-2"
+                  // checked
                 />
                 <label for="slider-2"></label>
                 <input
@@ -28,6 +29,7 @@ function Image() {
                   type="radio"
                   name="slider"
                   id="slider-3"
+                  // checked
                 />
                 <label for="slider-3"></label>
                 <input
@@ -35,20 +37,23 @@ function Image() {
                   type="radio"
                   name="slider"
                   id="slider-4"
+                  // checked
                 />
                 <label for="slider-4"></label>
                 <input
-                  className="checkbox foth"
+                  className="checkbox fifth"
                   type="radio"
                   name="slider"
                   id="slider-5"
+                  // checked
                 />
                 <label for="slider-5"></label>
                 <input
-                  className="checkbox foth"
+                  className="checkbox sixth"
                   type="radio"
                   name="slider"
                   id="slider-6"
+                  // checked
                 />
                 <label for="slider-6"></label>
 
